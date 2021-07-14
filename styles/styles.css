@@ -86,7 +86,7 @@ span{
 
 .menu-container:hover .content-right{
     transform: scale(1.1) rotate(15deg);
-    transition: 2s, ease-in-out;
+    transition: transform 1s ease-in-out;
 }
 /* main styles start */
 
