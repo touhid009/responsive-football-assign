@@ -149,7 +149,7 @@ width: 100%;
     margin-top: 150px;
     margin-right: 66px;
     margin-left: 182px;
-    margin-bottom: 493px;
+    margin-bottom: 150px;
     padding-left: 200px;
     
 }
@@ -159,7 +159,24 @@ width: 100%;
     margin-top: 100px;
     margin-right: 130px;
     margin-left: 66px;
-    margin-bottom: 434px;
+    
+}
+
+.content-3 {
+    width: 469px;
+    margin-left: 370px;
+    margin-bottom: 150px;
+   
+    
+}
+
+.content-4 {
+    width: 469px;
+    margin-top: 10px;
+    margin-right: 130px;
+    margin-left: 66px;
+   
+    
 }
 
 .content-title{
@@ -173,9 +190,10 @@ width: 100%;
   
 }
 .footer-image{
-
     width: 484px;
     height: 110px;
+    margin-left: 475px;
+    margin-right: 480px;
 }
 .footer-icons a{
     color: gray;
@@ -184,7 +202,7 @@ width: 100%;
 }
 
 .footer-note{
-    margin-left: 550px;
+    margin-left: 530px;
     margin-right: 500px;
 }
 
