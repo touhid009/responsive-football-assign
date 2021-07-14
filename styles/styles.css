@@ -11,18 +11,18 @@ body{
     margin: 0px;
 }
 
-main{
+/* main{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
-}
+} */
 
 
 /* header styles  */
 
 .menu-container{
-    width: 1446px;
+    width: 1440px;
     height: 677px;
     background: #2D25A0; 
     margin-left:182px;
@@ -62,7 +62,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;    
+       
 }
 
 .content-right img{
@@ -88,11 +88,13 @@ span{
     transform: scale(1.1) rotate(15deg);
     transition: 2s, ease-in-out;
 }
-/* main styles players  */
+/* main styles start */
+
+/* players styles  */
 
 .info-container{
     width: 1040px;
-    margin-left: 182px;
+    margin-left: 400px;
     margin-top: 70px;
     margin-right: 210px;
 }
@@ -141,20 +143,22 @@ width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 5px;
-    
+   
+}
+.content-title{
+    height: 0.5em;
 }
 
 .content-details{
     text-align: justify;
 }
-.content-1 {
+.highlight-1 {
     width: 469px;
     margin-top: 150px;
     margin-right: 66px;
     margin-left: 182px;
     margin-bottom: 150px;
     padding-left: 200px;
-    
 }
 
 .highlight-content-button{
@@ -165,31 +169,35 @@ width: 100%;
     padding: 10px 15px 10px 15px;
     text-decoration: none;
 }
-.content-2{
+.highlight-2{
     width: 600px;
     height: 120px;
     margin-top: 100px;
     margin-right: 130px;
     margin-left: 66px;
-    
 }
 
-.content-3 {
+.highlight-3 {
     width: 469px;
     margin-left: 370px;
     margin-bottom: 150px;  
 }
 
-.content-4 {
+.highlight-4 {
     width: 469px;
     margin-top: 10px;
     margin-right: 130px;
     margin-left: 66px;   
 }
 
-.content-title{
-    height: 0.5em;
+.highlights{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
+/* main styles end  */
 
 /* footer styles  */
 
@@ -197,22 +205,38 @@ width: 100%;
     text-align: center;
   
 }
-.footer-image{
-    width: 484px;
-    height: 110px;
-    margin-left: 475px;
-    margin-right: 480px;
-}
-.footer-icons a{
-    color: gray;
-    width: 170px;
-    height: 32px;
-    
-}
+    .footer-image{
+        width: 484px;
+        height: 110px;
+    }
+    .footer-icons a{
+        color: gray;
+        
+    }
 
-.footer-note{
-    margin-left: 530px;
-    margin-right: 500px;
-}
+    
 
 /* mobile screen  */
+@media only screen and (max-width:668px){
+
+  header .menu-content{
+      flex-direction: column;
+      width: 100%;
+  }
+  .players{
+      grid-template-columns: repeat(1, 1fr);
+      width: 100%;
+  }
+.highlights-contents{
+    
+    grid-template-columns: repeat(1fr);
+   
+}
+footer{
+    text-align: center;
+    width: 100%;
+    margin-left: 300px;
+
+
+    }
+}
